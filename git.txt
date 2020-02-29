@@ -1,0 +1,15 @@
+How to use git
+
+new file to github:
+git init - init the git
+git add . - to add all files
+git status - check status of files (edited)
+git commit -m"any message" - commit the change
+git push - push the change onto github. (first do something else)
+
+new branch:
+git checkout -b dev - makes new branch call dev and switchs to it
+git branch - check all branches
+git push origin dev - push the branch onto github
+git push origin :dev - delete the branch call dev
+git checkout dev - switch to the dev branch
